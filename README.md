@@ -23,12 +23,12 @@
 ## Resources
 
 * [RogueBasin Articles](http://www.roguebasin.com/index.php?title=Articles) - :+1:
-* [Procedural Generation Resources](https://www.firespark.de/?id=article&article=ProceduralGenerationResources) - :+1:
+* [Procedural Generation Resources](https://procgen.space/resources) - :+1:
 * [Procedural Generation Wiki](http://pcg.wikidot.com/)
 * [Random Dungeon Generators](http://wiki.secretgeek.net/random-dungeon-generators)
 * [Procedural Map Generation](http://www.gridsagegames.com/blog/2014/06/procedural-map-generation/)
 * [FAQ Friday](https://www.reddit.com/r/roguelikedev/wiki/faq_friday)
-* [Roguelike Tilesets](https://www.reddit.com/r/roguelikedev/comments/436sop/roguelike_tilesets/)
+* [Roguelike Tilesets](https://www.reddit.com/r/roguelikedev/wiki/tilesets)
 
 ### Procedural Map Generation
 
@@ -47,6 +47,7 @@
 		* [Jamis Buck's Random Dungeon Generator](http://dungeonsndigressions.blogspot.kr/2011/02/bucks-random-dungeon-generator.html) - [#2](https://github.com/jamis/dnd-dungeon)
 		* [Think Labyrinth: Maze Algorithms](http://www.astrolog.org/labyrnth/algrithm.htm)
 		* [Random Dungeon Generator Launcher by Wizards of the Coast](https://www.wizards.com/dnd/mapper/launcher.htm)
+		* [donjon Random Dungeon Generator](https://donjon.bin.sh/fantasy/dungeon/)
 		* [Rooms and Mazes: A Procedural Dungeon Generator](http://journal.stuffwithstuff.com/2014/12/21/rooms-and-mazes/)
 
 	* Cellular Automata
@@ -63,7 +64,6 @@
 		* [Over-Engineering Dungeon Generation](http://angband.oook.cz/forum/showthread.php?t=927)
 		* [Procedural Dungeon Generation Algorithm Explained](https://www.reddit.com/r/gamedev/comments/1dlwc4/procedural_dungeon_generation_algorithm_explained/) - :+1:
 			* [TinyKeep](https://forums.tigsource.com/index.php?topic=36176.0) - Devlog
-			* [Demo](http://tinykeep.com/dungen/) - Flash
 		* [Procedural Dungeon Generation Algorithm](https://github.com/adonaac/blog/issues/7)
 		* [Delaunay Triangulation Dungeon Generator](https://github.com/glouw/dungen) - C
 		* [Dungeon Generation Algorithm](https://www.reddit.com/r/roguelikedev/comments/1sd730/my_dungeon_generation_algorithm/) - Relative Neighborhood Graph
@@ -79,6 +79,7 @@
 		* [A Template-Based Approach to Procedural Map Generation](https://docs.google.com/document/d/e/2PACX-1vR2cc7r4s_K2T9AYWn06HiccQBv4jlfeFD874yWTa6BZOBDKLVMH7pRW0wZIOZ8cqHombTISFVMlkbV/pub)
 
 	* Miscellaneous
+		* [donjon - RPG Tools (lots of random generators)](https://donjon.bin.sh/)
 		* [The Original Rogue Algorithm](https://web.archive.org/web/20131025132021/http://kuoi.org/~kamikaze/GameDesign/art07_rogue_dungeon.php)
 		* [Dungeon Maker](http://dungeonmaker.sourceforge.net/DM2_Manual/index.html)
 		* [Level Generator](https://github.com/mreinstein/level-generator)
@@ -139,7 +140,6 @@
 * [Roguelike Vision Algorithms](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html) - :+1:
 * [Comparative Study of Field of View Algorithms for 2D Grid Based Worlds](http://www.roguebasin.com/index.php?title=Comparative_study_of_field_of_view_algorithms_for_2D_grid_based_worlds)
 * [What the Hero Sees: Field-of-View for Roguelikes](http://journal.stuffwithstuff.com/2015/09/07/what-the-hero-sees/)
-* [Partial Occlusion Field-of-View](http://blog.pixelpracht.net/?p=340)
 
 ### AI
 
@@ -148,7 +148,6 @@
 * [Dijkstra Maps Visualized](http://www.roguebasin.com/index.php?title=Dijkstra_Maps_Visualized)
 * [Distance Map](http://projects.jake.cx/distance-map/)
 * [Applications of Dijkstra Maps in Roguelikes](https://www.youtube.com/watch?v=2ExLEY32RgM) - Video
-* [TinyKeep AI Demo](http://tinykeep.com/ai/) - Flash Demo, Videos
 
 ### Time Management
 
@@ -156,7 +155,7 @@
 
 ## Tutorials
 
-* [Roguelikedev Does The Complete Roguelike Tutorial](https://www.reddit.com/r/roguelikedev/wiki/python_tutorial_series) - Version 2017/2018 :+1:
+* [Roguelikedev Does The Complete Roguelike Tutorial](https://www.reddit.com/r/roguelikedev/wiki/python_tutorial_series) - Version 2020/2021 - :+1:
 * [Complete Roguelike Tutorial using Python and libtcod](http://www.roguebasin.com/index.php?title=Complete_Roguelike_Tutorial,_using_python%2Blibtcod) - :+1:
 * [Complete Roguelike Tutorial using C++ and libtcod](http://www.roguebasin.com/index.php?title=Complete_roguelike_tutorial_using_C%2B%2B_and_libtcod_-_part_1:_setting_up)
 * [Creating a Roguelike Game in C# and RogueSharp](https://roguesharp.wordpress.com/)
@@ -164,7 +163,6 @@
 * [Building a Roguelike in JavaScript and rot.js](http://www.codingcookies.com/2013/04/01/building-a-roguelike-in-javascript-part-1/)
 * [Let's Build a Roguelike in FreeBasic](http://users.freebasic-portal.de/rdc/tutorials.html)
 * [Unity 2D Roguelike Tutorial](https://unity3d.com/kr/learn/tutorials/s/2d-roguelike-tutorial)
-* ~~[Python Roguelike Tutorial](https://www.youtube.com/playlist?list=PLKUel_nHsTQ1yX7tQxR_SQRdcOFyXfNAb) - Videos~~
 
 ## Videos
 
@@ -176,13 +174,14 @@
 
 ## Libraries
 
-* [libtcod](http://roguecentral.org/doryen/libtcod/) - C/C++, Python
+* [libtcod](https://github.com/libtcod/libtcod) - C/C++, Python
 * [BearLibTerminal](http://foo.wyrd.name/en:bearlibterminal) - C/C++, C#, Lua, Pascal, Python, Ruby
 * [rltk](https://github.com/thebracket/rltk) - C++
 * [SadConsole](https://github.com/Thraka/SadConsole) - C#
 * [rot.js](https://github.com/ondras/rot.js) - JavaScript
 * [rotLove](https://github.com/paulofmandown/rotLove) - Lua
 * [T-Engine4](https://te4.org/te4) - Lua
+* [T-Engine4 Repo](https://git.net-core.org/tome/t-engine4/)
 * [LambdaHack](https://github.com/LambdaHack/LambdaHack) - Haskell
 
 ## Open Source Roguelikes
@@ -194,9 +193,10 @@
 * [Cataclysm DDA](https://github.com/CleverRaven/Cataclysm-DDA) - C++
 * [Dungeon Crawl Stone Soup](https://github.com/crawl/crawl) - C++
 * [Incursion](https://bitbucket.org/rmtew/incursion-roguelike/src/master/) - C++
-* [Infra Arcana](https://github.com/martin-tornqvist/ia) - C++
+* [Infra Arcana](https://gitlab.com/martin-tornqvist/ia) - C++
 * [IVAN](https://github.com/Attnam/ivan) - C++
 * [KeeperRL](https://github.com/miki151/keeperrl) - C++
+* [Shadow of the Wyrm](https://github.com/prolog/shadow-of-the-wyrm) - C++
 * [Amaranth](https://github.com/munificent/amaranth) - C#
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon) - Java
 * [Hauberk](https://github.com/munificent/hauberk) - Dart :+1:
